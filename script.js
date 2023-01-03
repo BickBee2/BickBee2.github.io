@@ -61,10 +61,10 @@ setInterval(function() {
     block.classList.add("animate-block");
     var random_number = Math.floor(Math.random() * 3);
     if (random_number == 0) {
-        block.src = "./Images/Soccer.png";
+        block.src = "/Images/Soccer.png";
     } else if (random_number == 1) {
-        block.src = "./Images/Basketball.png";
+        block.src = "/Images/Basketball.png";
     } else if (random_number == 2) {
-        block.src = "./Images/Beachball.png";
+        block.src = "/Images/Beachball.png";
     }
 }, 1000);
